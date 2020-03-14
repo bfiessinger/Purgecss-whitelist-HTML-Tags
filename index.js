@@ -1,5 +1,5 @@
 module.exports = {
-	purgecssHTMLTagsWhitelist: [
+	whitelist: [
 		'a',
 		'abbr',
 		'acronym',
