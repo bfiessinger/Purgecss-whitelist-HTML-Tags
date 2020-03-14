@@ -1,6 +1,6 @@
 {
   "name": "purgecss-whitelist-htmltags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "purgecss whitelist for HTML Tags",
   "main": "index.js",
   "scripts": {
