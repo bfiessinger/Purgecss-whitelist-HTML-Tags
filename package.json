@@ -1,0 +1,15 @@
+{
+  "name": "purgecss-whitelist-htmltags",
+  "version": "1.0.0",
+  "description": "purgecss whitelist for HTML Tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "purgecss",
+    "whitelist"
+  ],
+  "author": "Bastian Fießinger",
+  "license": "GPL-2.0-or-later"
+}
