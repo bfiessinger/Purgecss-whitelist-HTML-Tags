@@ -14,14 +14,14 @@ const purgecssHTMLTags = require('purgecss-whitelist-htmltags');
 module.exports = {
 	...
 	plugins: [
-    new PurgecssPlugin({
-      paths: PurgecssFiles,
-      whitelist: [
-        ...
+		new PurgecssPlugin({
+			paths: PurgecssFiles,
+			whitelist: [
+				...
 				purgecssHTMLTags.whitelist,
 				...
-      ]
-    })
+			]
+		})
 	],
 	...
 }
