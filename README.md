@@ -18,7 +18,7 @@ module.exports = {
 			paths: PurgecssFiles,
 			whitelist: [
 				...
-				purgecssHTMLTags.whitelist,
+				...purgecssHTMLTags.whitelist,
 				...
 			]
 		})
