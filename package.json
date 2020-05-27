@@ -1,6 +1,6 @@
 {
   "name": "purgecss-whitelist-htmltags",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "purgecss whitelist for HTML Tags",
   "main": "index.js",
   "scripts": {},
@@ -9,10 +9,10 @@
     "whitelist"
   ],
   "author": "Bastian Fießinger",
-	"license": "GPL-2.0-or-later",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/bfiessinger/Purgecss-whitelist-HTML-Tags.git"
-	},
-	"homepage": "https://github.com/bfiessinger/Purgecss-whitelist-HTML-Tags#readme"
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bfiessinger/Purgecss-whitelist-HTML-Tags.git"
+  },
+  "homepage": "https://github.com/bfiessinger/Purgecss-whitelist-HTML-Tags#readme"
 }
