@@ -136,5 +136,8 @@ module.exports = {
 		'video',
 		'wbr',
 		'xmp'
+	],
+	whitelistPatterns: [
+		/^\[[A-z0-9-:\\\/="']+\]$/
 	]
 };
