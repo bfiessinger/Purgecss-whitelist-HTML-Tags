@@ -138,6 +138,7 @@ module.exports = {
 		'xmp'
 	],
 	whitelistPatterns: [
-		/\[[A-z0-9-:\\\/="']+\]/
+		// Default HTML Attributes
+		/^(accept(-charset)?|accesskey|action|align|alt|async|auto(complete|focus|play)|bgcolor|border|charset|checked|cite|class|col(or|s|span)|content(editable)?|controls|coords|data(-.*)?|datetime|default|defer|dir|disabled|download|draggable|dropzone|enctype|for|form(action)?|headers|height|hidden|high|href|hreflang|http-equiv|id|ismap|kind|label|lang|list|loop|low|max(length)?|media|method|min|multiple|muted|name|novalidate|open|optimum|pattern|placeholder|poster|preload|readonly|rel|required|reversed|rows|rowspan|sandbox|scope|selected|shape|spellcheck|src(doc|lang|set)?|start|step|style|tabindex|target|title|translate|type|usemap|value|width|wrap)([\^\*\$])?(=["'].*["'])?$/
 	]
 };
