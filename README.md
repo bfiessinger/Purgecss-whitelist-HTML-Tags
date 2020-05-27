@@ -9,20 +9,28 @@ First install [purgecss](https://github.com/FullHuman/purgecss).
 
 ## Usage
 ```javascript
-const purgecssHTMLTags = require('purgecss-whitelist-htmltags');
+import Purgecss from 'purgecss';
+import purgecssWithHtml from 'purgecss-whitelist-htmltags';
 
-module.exports = {
-	...
-	plugins: [
-		new PurgecssPlugin({
-			paths: PurgecssFiles,
-			whitelist: [
-				...
-				...purgecssHTMLTags.whitelist,
-				...
-			]
-		})
-	],
-	...
-}
+const purgeCss = new Purgecss({
+	whitelist: purgecssWithHtml.whitelist,
+	whitelistPatterns: purgecssWithHtml.whitelistPatterns
+});
+
+const res = purgeCss.purge();
+```
+
+if you have additional classes for whitelist or whitelistPattners, you can use the spread operator:
+
+```javascript
+whitelist: [
+	...purgecssWithHtml.whitelist,
+	...thirdparty.whitelist,
+	'my-class'
+],
+whitelistPatterns: [
+	...purgecssWithHtml.whitelistPatterns,
+	...thirdparty.whitelistPatterns,
+	/^my-(class|id)$/
+]
 ```
