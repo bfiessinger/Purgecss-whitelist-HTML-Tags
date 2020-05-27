@@ -138,6 +138,6 @@ module.exports = {
 		'xmp'
 	],
 	whitelistPatterns: [
-		/^\[[A-z0-9-:\\\/="']+\]$/
+		/\[[A-z0-9-:\\\/="']+\]/
 	]
 };
